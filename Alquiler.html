@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Alquiler de Motos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace a tu hoja de estilos CSS -->
+</head>
+<body>
+    <header>
+        <h1>Formulario de Alquiler de Motos</h1>
+    </header>
+
+    <form action="procesar_formulario.php" method="post">
+        <fieldset>
+            <legend>Datos del Cliente</legend>
+            <label for="Tipo de documento">Tipo de documento:</label>
+            <input type="text" id="Tipo de documento" name="Tipo de documento" required>
+<h3></h3>
+            <label for="Numero de documento">Numero de documento:</label>
+            <input type="text" id="Numero de documento" name="Numero de documento" required>
+<h3></h3>
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="nombre" required>
+<h3></h3>
+            <label for="apellido">Apellidos:</label>
+            <input type="text" id="apellido" name="apellido" required>
+<h3></h3>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+<h3></h3>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+<h3></h3>
+            <label for="Dirección">Dirección:</label>
+            <input type="Dirección" id="Dirección" name="telefono" required>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Detalles del Alquiler</legend>
+            <label for="fecha_inicio">Fecha de Inicio:</label>
+            <input type="date" id="fecha_inicio" name="fecha_inicio" required>
+
+            <label for="fecha_fin">Fecha de Fin:</label>
+            <input type="date" id="fecha_fin" name="fecha_fin" required>
+
+            <label for="modelo_moto">Modelo de Moto:</label>
+            <select id="modelo_moto" name="modelo_moto" required>
+                <option value="modelo1">Modelo 1</option>
+                <option value="modelo2">Modelo 2</option>
+                <option value="modelo3">Modelo 3</option>
+                <option value="modelo3">Modelo 4</option>
+                <option value="modelo3">Modelo 5</option>
+            </select>
+
+            <label for="tipo_seguro">Tipo de Seguro:</label>
+            <input type="radio" id="seguro_basico" name="tipo_seguro" value="Seguro Básico" required>
+            <label for="seguro_basico">Seguro Básico</label>
+            <input type="radio" id="seguro_premium" name="tipo_seguro" value="Seguro Premium" required>
+            <label for="seguro_premium">Seguro Premium</label>
+            <input type="radio" id="seguro_premium" name="tipo_seguro" value="Seguro Premium" required>
+            <label for="seguro_premium">No aplica</label>
+        <h3></h3>
+        <label for="Detalle_del_pago">Detalle del pago</label>
+            <input type="radio" id="Realizado" name="Pagos" value="Realizado" required>
+            <label for="Realizado">Realizado</label>
+            <input type="radio" id="No_ha_pagado" name="Pagos" value="No ha pagado" required>
+            <label for="No ha pagado">No ha pagado</label>
+            <input type="radio" id="Pendiente" name="Pagos" value="Pendiente" required>
+            <label for="seguro_premium">Pendiente</label> 
+        
+        <h3></h3>
+        <label for="Documentación_cargada">Documentación cargada:</label>
+        <input type="radio" id="Si" name="Documentos" value="Si" required>
+        <label for="Si">Si</label>
+        <input type="radio" id="No" name="Documentos" value="No" required>
+        <label for="No">No</label>
+
+        </fieldset>
+
+        <button type="submit">Enviar Solicitud de Alquiler</button>
+        
+    </form>
+
+    <footer>
+        <p>&copy; 2023 Empresa de Alquiler de Motos</p>
+    </footer>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3498db, #c0392b);
+            color: #fff;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .login-box {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            color: #333;
+        }
+        
+        /* Otros estilos CSS aquí */
+        
+        /* Resto de tu hoja de estilos */
+        
+
+
+    </style>
+    <a href="Interno.html">Volver</a>
+</body>
+</html>
