@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Motos</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .nav-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-menu li {
+            margin-right: 20px;
+        }
+
+        .nav-menu li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-menu a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .nav-menu a:hover {
+            color: #ff5733;
+        }
+
+        /* Menús desplegables */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Estilos para botones de categoría */
+        .category-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .category-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .category-button:hover {
+            background-color: #ff5733;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="Empresa.html">Nuestra Empresa</a></li>
+                <li class="dropdown">
+                    <a href="Categoria.html" class="dropbtn">Categorías de Motos</a>
+                    <div class="dropdown-content">
+                        <a href="Pagina.html#inicio">Convencionales</a>
+                        <a href="motos.html#offroad">Off-Road</a>
+                        <a href="motos.html#scooter">Scooter</a>
+                        <a href="motos.html#scooter">Scooter</a>
+                        <a href="motos.html#scooter">Scooter</a>
+                    </div>
+                </li>
+                <li><a href="Tarifas.html">Tarifas</a></li>
+                <li class="user-menu dropdown">
+                    <a href="index.html" class="dropbtn">Salir</a>
+                    <div class="dropdown-content">
+                        <a href="perfil.html">Mi Perfil</a>
+                        <a href="reservas.html">Mis Reservas</a>
+                        <a href="ajustes.html">Ajustes</a>
+                        <a href="cerrar_sesion.html">Cerrar Sesión</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Botones de selección de categoría -->
+    <div class="category-buttons">
+        <a href="Alquiler.html" button class="category-button">Solicitud de alquiler</button></a>
+        <button class="category-button">Pagos</button>
+        <button class="category-button">Trazabilidad</button>
+        <a href="Soportes.html"button class="category-button">Soportes</button></a>
+        <button class="category-button">Administrdor</button>
+    </div>
+
+    <!-- Resto del contenido de la página -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #3498db, #c0392b);
+            color: #fff;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .login-box {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            color: #333;
+        }
+        
+        /* Otros estilos CSS aquí */
+        
+        /* Resto de tu hoja de estilos */
+        
+
+
+    </style>
+</body>
+</html>
